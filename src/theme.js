@@ -12,6 +12,10 @@ const theme = createTheme({
       main: secondary,
     },
   },
+  typography: {
+    fontFamily: `"Asap", sans-serif`,
+    fontSize: 16,
+  },
 });
 
 export default theme;

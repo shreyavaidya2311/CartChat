@@ -55,7 +55,7 @@ const Register = (props) => {
         contactno: number,
       })
       .then((res) => {
-        props.history.push("/login");
+        props.history.push("/platforms");
       })
       .catch((e) => console.log(e));
   };
